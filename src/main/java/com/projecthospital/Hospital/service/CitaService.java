@@ -1,6 +1,6 @@
 package com.projecthospital.Hospital.service;
 
-import com.projecthospital.Hospital.model.Cita;
+import com.projecthospital.Hospital.orm.Cita;
 import com.projecthospital.Hospital.repository.CitaRepository;
 import org.springframework.stereotype.Service;
 

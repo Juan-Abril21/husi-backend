@@ -1,6 +1,6 @@
 package com.projecthospital.Hospital.controller;
 
-import com.projecthospital.Hospital.model.Espacio;
+import com.projecthospital.Hospital.orm.Espacio;
 import com.projecthospital.Hospital.service.EspacioService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,6 +1,6 @@
 package com.projecthospital.Hospital.service;
 
-import com.projecthospital.Hospital.model.Espacio;
+import com.projecthospital.Hospital.orm.Espacio;
 import com.projecthospital.Hospital.repository.EspacioRepository;
 import org.springframework.stereotype.Service;
 

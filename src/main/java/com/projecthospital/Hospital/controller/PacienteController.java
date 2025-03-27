@@ -1,6 +1,6 @@
 package com.projecthospital.Hospital.controller;
 
-import com.projecthospital.Hospital.model.Paciente;
+import com.projecthospital.Hospital.orm.Paciente;
 import com.projecthospital.Hospital.service.PacienteService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

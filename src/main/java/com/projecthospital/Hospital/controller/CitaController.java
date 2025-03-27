@@ -1,6 +1,6 @@
 package com.projecthospital.Hospital.controller;
 
-import com.projecthospital.Hospital.model.Cita;
+import com.projecthospital.Hospital.orm.Cita;
 import com.projecthospital.Hospital.service.CitaService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
