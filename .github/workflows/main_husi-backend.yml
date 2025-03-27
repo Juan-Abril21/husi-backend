@@ -45,7 +45,7 @@ jobs:
        id: deploy-to-webapp
        uses: azure/webapps-deploy@v2
        with:
-         app-name: 'husi-backend'
+         app-name: 'husibackend'
          slot-name: 'production'
          publish-profile: ${{ secrets.AzureAppService_PublishProfile_59cd3539ef7946918ed3b4618823b572 }}
          images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_7a735ebeaa5a4cf18efb159c0a6fad1e }}/abril21/husibackend:${{ github.sha }}'
