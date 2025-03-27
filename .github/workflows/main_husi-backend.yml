@@ -30,8 +30,8 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: ${{ secrets.AzureAppService_ContainerUsername_7a735ebeaa5a4cf18efb159c0a6fad1e }}/husibackend:${{ github.sha }}
-        file: ./Hospital/dockerfile
+        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_7a735ebeaa5a4cf18efb159c0a6fad1e }}/abril21/husibackend:${{ github.sha }}
+        file: ./Dockerfile
         context: .
 
   deploy:
